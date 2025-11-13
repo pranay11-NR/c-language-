@@ -30,16 +30,16 @@ void printByRoll(struct Student s[], int n, int roll) {
 
 int main() {
     struct Student students[10] = {
-        {101, "Amit Sharma", "B.Tech", "CSE", "Mathematics"},
-        {102, "Priya Patel", "B.Sc", "Physics", "Chemistry"},
-        {103, "Rahul Kumar", "B.Com", "Accounts", "Economics"},
-        {104, "Sneha Verma", "B.Tech", "ECE", "Physics"},
-        {105, "Vikram Singh", "B.A", "History", "Political Science"},
-        {106, "Anjali Gupta", "B.Tech", "IT", "Data Science"},
-        {107, "Rohan Mehta", "B.Sc", "Biology", "Zoology"},
-        {108, "Kavya Desai", "B.Tech", "Mechanical", "Thermodynamics"},
-        {109, "Arjun Nair", "B.Com", "Finance", "Taxation"},
-        {110, "Neha Joshi", "B.A", "English", "Literature"}
+        {01, "Amit Sharma", "B.Tech", "CSE", "Mathematics"},
+        {02, "Priya Patel", "B.Sc", "Physics", "Chemistry"},
+        {03, "Rahul Kumar", "B.Com", "Accounts", "Economics"},
+        {04, "Sneha Verma", "B.Tech", "ECE", "Physics"},
+        {05, "Vikram Singh", "B.A", "History", "Political Science"},
+        {06, "Anjali Gupta", "B.Tech", "IT", "Data Science"},
+        {07, "Rohan Mehta", "B.Sc", "Biology", "Zoology"},
+        {08, "Kavya Desai", "B.Tech", "Mechanical", "Thermodynamics"},
+        {09, "Arjun Nair", "B.Com", "Finance", "Taxation"},
+        {10, "Neha Joshi", "B.A", "English", "Literature"}
     };
 
     printAllNames(students, 10);
@@ -51,3 +51,4 @@ int main() {
 
     return 0;
 }
+
